@@ -13,6 +13,7 @@
     "better-sqlite3": "^12.10.0",
     "coinbase-commerce-node": "^1.0.4",
     "concurrently": "^8.2.2",
+    "cors": "^2.8.6",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",

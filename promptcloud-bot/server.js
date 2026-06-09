@@ -26,8 +26,13 @@ if (process.env.COINBASE_API_KEY) {
 const app = express();
 
 // CORS — allow Next.js dev server
+const cors = require('cors');
+app.use(cors({
+  origin: process.env.FRONTEND_URL || 'http://localhost:3002',
+  credentials: true
+}));
+
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   if (req.method === 'OPTIONS') return res.sendStatus(200);

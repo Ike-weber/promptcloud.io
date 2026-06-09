@@ -299,3 +299,13 @@
 {"level":"info","message":"Telegram Bot: NOT CONFIGURED","timestamp":"2026-06-08T08:53:56.240Z"}
 {"level":"info","message":"Mode: API only","timestamp":"2026-06-08T08:53:56.241Z"}
 {"level":"info","message":"Proxmox: https://your-proxmox-server:8006","timestamp":"2026-06-08T08:53:56.241Z"}
+{"level":"warn","message":"Telegram polling disabled: configure TELEGRAM_BOT_TOKEN in api/.env","timestamp":"2026-06-09T10:38:06.672Z"}
+{"level":"info","message":"PromptCloud API v2.0.0 running on port 3001","timestamp":"2026-06-09T10:38:06.681Z"}
+{"level":"info","message":"Telegram Bot: NOT CONFIGURED","timestamp":"2026-06-09T10:38:06.682Z"}
+{"level":"info","message":"Mode: API only","timestamp":"2026-06-09T10:38:06.682Z"}
+{"level":"info","message":"Proxmox: https://your-proxmox-server:8006","timestamp":"2026-06-09T10:38:06.682Z"}
+{"level":"warn","message":"Telegram polling disabled: configure TELEGRAM_BOT_TOKEN in api/.env","timestamp":"2026-06-09T11:53:33.102Z"}
+{"level":"info","message":"PromptCloud API v2.0.0 running on port 3001","timestamp":"2026-06-09T11:53:33.112Z"}
+{"level":"info","message":"Telegram Bot: NOT CONFIGURED","timestamp":"2026-06-09T11:53:33.112Z"}
+{"level":"info","message":"Mode: API only","timestamp":"2026-06-09T11:53:33.113Z"}
+{"level":"info","message":"Proxmox: https://your-proxmox-server:8006","timestamp":"2026-06-09T11:53:33.114Z"}
